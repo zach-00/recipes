@@ -13,3 +13,26 @@ thead {
     padding: 2em;
     font-size: 135%;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 16px;
+}
+
+footer {
+    margin: 24px 0px 24px 0px;
+}
+
+img {
+    height: 200px;
+}
+
+nav {
+    border-bottom: 1px;
+    border-bottom: black;
+    padding: 16px;
+}
