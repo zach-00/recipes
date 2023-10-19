@@ -1,15 +1,15 @@
-#tacos-link {
-    color: green;
-
-
+.link-color {
+    color: #46750e;
 }
 
-
-
+.no-underline {
+    text-decoration: none;
+}
 
 #with-love {
     padding: 2em;
     font-size: 135%;
+    background-color: #8bce31;
 }
 
 body {
@@ -27,6 +27,7 @@ footer {
 
 img {
     height: 200px;
+    width: 150px;
 
 }
 
@@ -34,6 +35,11 @@ nav {
     border-bottom: 1px;
     border-bottom: solid black;
     padding: 16px;
+    background-color: #ee6611;
+}
+
+.white-font {
+    color: white;
 }
 
 .grid-layout {
@@ -43,6 +49,6 @@ nav {
     grid-template-rows: repeat(2, 1fr);
 }
 
-.wrap {
-
+tr:nth-child(even) {
+    background-color: rgb(192, 189, 189);
 }
