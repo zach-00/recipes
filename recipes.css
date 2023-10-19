@@ -1,6 +1,6 @@
 #tacos-link {
-    font-weight: bold;
-    font-size: 155%;
+    color: green;
+
 
 }
 
@@ -27,10 +27,22 @@ footer {
 
 img {
     height: 200px;
+
 }
 
 nav {
     border-bottom: 1px;
     border-bottom: solid black;
     padding: 16px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.wrap {
+
 }
