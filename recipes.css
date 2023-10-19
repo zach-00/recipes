@@ -52,3 +52,7 @@ nav {
 tr:nth-child(even) {
     background-color: rgb(192, 189, 189);
 }
+
+a:hover {
+    color: red;
+}
