@@ -5,9 +5,7 @@
 }
 
 
-thead {
-    font-size: 155%;
-}
+
 
 #with-love {
     padding: 2em;
@@ -33,6 +31,6 @@ img {
 
 nav {
     border-bottom: 1px;
-    border-bottom: black;
+    border-bottom: solid black;
     padding: 16px;
 }
